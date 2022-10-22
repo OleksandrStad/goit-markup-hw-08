@@ -1,10 +1,8 @@
 .advantage {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 
     @media screen and (min-width: 1200px) {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding: 94px 0;
     }
 
 }
@@ -13,7 +11,7 @@
 .advantage__list {
 
 
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
@@ -26,11 +24,14 @@
 
 
 .advantage__item {
-
-
-    width: 450px;
-
+    max-width: 450px;
     height: 226px;
+
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 30px;
+    }
+
 
     @media screen and (min-width: 768px) {
         width: 354px;
@@ -52,8 +53,7 @@
 }
 
 .advantage__svg {
-    width: 450px;
-
+    max-width: 450px;
     height: 120px;
 
     display: flex;

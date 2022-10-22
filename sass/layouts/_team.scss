@@ -24,11 +24,10 @@
 }
 
 .team__item {
-
+    max-width: 450px;
     display: block;
-    width: 450px;
 
-    // height: 622px;
+
     margin-bottom: 30px;
 
 
@@ -62,7 +61,7 @@
 
 .team__text {
 
-    width: 450px;
+    max-width: 450px;
 
     // height: 162px;
     padding: 30px 10px;
@@ -106,11 +105,11 @@
     }
 }
 
-.social__item {}
+// .social__item {}
 
 .social__icon {
     display: flex;
-    width: 44px;
+    max-width: 44px;
     height: 44px;
 
     background-color: #FFFFFF;

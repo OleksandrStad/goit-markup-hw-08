@@ -1,12 +1,15 @@
 .header {
+
+    padding: 10px 0;
     position: relative;
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
+
+    flex-direction: column;
+    justify-content: space-between;
+
 
 
     @media screen and (min-width:768px) {
-        padding: 21px 15px;
+        padding: 21px 0;
     }
 
     @media screen and (min-width:1200px) {
@@ -25,26 +28,23 @@
 
 .nav__list,
 .header__list {
-    @media screen and (max-width: 481px) {
+    @media screen and (max-width: 768px) {
         display: none;
     }
 }
 
 
-
-
-
 .logo {
+    display: inline-block;
 
-    display: block;
-    margin-right: 87px;
-
-    @media screen and (min-width: 768px) {
-        margin-right: 93px;
-    }
-
-
+    // @media screen and (min-width: 768px) {
+    //     margin-right: 93px;
+    // }
 }
+
+
+
+
 
 .logo__link {
     color: var(--color-logo);
@@ -69,34 +69,6 @@
     color: #2196F3;
 }
 
-// .header__btn {
-//     width: 40px;
-//     height: 40px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     margin-right: 0;
-//     margin-left: auto;
-//     padding: 0;
-//     background-color: #ffff;
-//     border: none;
-
-//     @media screen and(min-width:481px) {
-//         display: none;
-//     }
-
-//     & .icon__close {
-//         display: none;
-//     }
-
-//     &.is-open .icon__close {
-//         display: block;
-//     }
-
-//     &.is-open .icon__menu {
-//         display: none;
-//     }
-// }
 
 
 

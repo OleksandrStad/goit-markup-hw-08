@@ -1,23 +1,30 @@
 .header__btn {
+    display: inline-block;
+
     width: 40px;
     height: 40px;
-    display: flex;
+
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-right: 0;
-    margin-left: auto;
-    padding: 0;
+
+
     background-color: #ffff;
     border: none;
 
-    @media screen and(min-width:481px) {
+    @media screen and(min-width:768px) {
         display: none;
     }
 
-    & .icon__close {
-        display: none;
+    // & .icon__close {
+    //     display: none;
 
-    }
+    // }
+
+
+
+
+
 
     // &.is-open .icon__close {
     //     display: block;
@@ -44,26 +51,27 @@
     height: 796px;
 
 
-    @media screen and(max-width:481px) {
+    @media screen and(max-width:767px) {
         display: none;
-
-        &.is-open {
-            display: block;
-            background: #ffff;
-        }
-
-        // & .icon__close {
-        //     display: none;
-        // }
-
-        &.is-open .icon__close {
-            display: block;
-        }
-
-        // &.is-open .icon__menu {
-        //     display: none;
-        // }
     }
+
+    &.is-open {
+        display: block;
+        background: #ffff;
+    }
+
+    // & .icon__close {
+    //     display: none;
+    // }
+
+    &.is-open .icon__close {
+        display: block;
+    }
+
+    // &.is-open .icon__menu {
+    //     display: none;
+    // }
+
 }
 
 .header__btn__close {
