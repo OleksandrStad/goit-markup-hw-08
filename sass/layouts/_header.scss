@@ -1,11 +1,6 @@
 .header {
 
     padding: 10px 0;
-    position: relative;
-
-    flex-direction: column;
-    justify-content: space-between;
-
 
 
     @media screen and (min-width:768px) {
@@ -20,6 +15,77 @@
 }
 
 
+
+.header__page {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+
+
+    @media screen and (min-width: 768px) {
+        margin-right: 93px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 0;
+    }
+}
+
+.header__btn {
+
+    width: 40px;
+    height: 40px;
+
+    margin-left: 0;
+
+
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #ffff;
+    border: none;
+
+    @media screen and(min-width:768px) {
+        display: none;
+    }
+
+
+
+
+
+
+
+    // & .icon__close {
+    //     display: none;
+
+    // }
+
+
+
+
+    // &.is-open .icon__close {
+    //     display: block;
+
+    // }
+
+    // &.is-open .icon__menu {
+    //     display: none;
+
+}
+
+
+
+
+
+
 .nav__list {
     display: flex;
     align-items: center;
@@ -30,19 +96,13 @@
 
 .nav__list,
 .header__list {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 769px) {
         display: none;
     }
 }
 
 
-.logo {
-    display: inline-block;
 
-    @media screen and (min-width: 768px) {
-        margin-right: 93px;
-    }
-}
 
 
 
