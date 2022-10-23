@@ -140,6 +140,8 @@
 
 .nav__item {
 
+
+    position: relative;
     margin-right: 50px;
 
     &:last-child {
@@ -148,6 +150,7 @@
 }
 
 .nav__link {
+    position: relative;
 
     color: var(--primery-text-color);
 

@@ -183,6 +183,7 @@ a {
 }
 
 .nav__item {
+  position: relative;
   margin-right: 50px;
 }
 .nav__item:last-child {
@@ -190,6 +191,7 @@ a {
 }
 
 .nav__link {
+  position: relative;
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
