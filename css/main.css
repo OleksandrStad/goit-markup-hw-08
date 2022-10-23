@@ -149,6 +149,11 @@ a {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 769px) {
+  .nav__list {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 769px) {
   .nav__list,
@@ -178,8 +183,6 @@ a {
 }
 
 .nav__item {
-  display: flex;
-  position: relative;
   margin-right: 50px;
 }
 .nav__item:last-child {
@@ -187,7 +190,6 @@ a {
 }
 
 .nav__link {
-  position: relative;
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
