@@ -10,11 +10,8 @@
 
     padding: 48px 83px 48px 40px;
 
-    // width: 100%;
-    // height: 100%;
-
-    // max-width: 480px;
-    // max-height: 796px;
+    max-width: 480px;
+    max-height: 796px;
 
     width: 100vw;
     height: 100vh;
@@ -34,11 +31,7 @@
 
 }
 
-// .flex_container {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-// }
+
 
 .header__btn__close {
     position: absolute;
@@ -129,15 +122,8 @@
 
 .social__menu__item {
     position: relative;
-    // margin: 0 10px;
 
-    // &:first-child {
-    //     margin-left: 0;
-    // }
 
-    // &:last-child {
-    //     margin-right: 0;
-    // }
 
 
     // &::after {
@@ -152,9 +138,9 @@
     //     width: 22px;
     //     height: 0;
 
-    // }
-
 }
+
+
 
 .social__menu__link {
     font-family: 'Roboto';
