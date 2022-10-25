@@ -106,8 +106,8 @@
 
         font-weight: 500;
         font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 1.17;
+        line-height: 1.17;
+        letter-spacing: 0.02;
         color: #757575;
     }
 }
@@ -124,9 +124,7 @@
     position: relative;
 
 
-
-
-    // &::after {
+    // &::after:: not(:last-child) {
     //     content: "";
     //     position: absolute;
     //     display: block;
@@ -137,10 +135,25 @@
     //     transform: rotate(90deg);
     //     width: 22px;
     //     height: 0;
+    //     background-color: rgba(33, 33, 33, 0.2);
+    // }
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+
+        bottom: 50%;
+        right: -20px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        transform: rotate(90deg);
+        width: 22px;
+        height: 0;
+        background-color: rgba(33, 33, 33, 0.2);
+
+    }
 
 }
-
-
 
 .social__menu__link {
     font-family: 'Roboto';

@@ -30,10 +30,14 @@
 }
 
 .clients__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
 
+
+
+    @media screen and(min-width:480px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 
 
 }
@@ -41,6 +45,18 @@
 .clients__item {
     width: 210px;
     height: 92px;
+
+    margin: 0 auto;
+
+
+    @media screen and(max-width:480px) {
+        &:not(last-cild) {
+            margin-top: 30px;
+        }
+    }
+
+
+
 
 
     @media screen and(min-width:768px) {

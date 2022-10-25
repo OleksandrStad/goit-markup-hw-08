@@ -1,8 +1,8 @@
 @mixin retina {
 
-    @media (min-device-pixel-ratio:2),
-    (min-revolution:192dpi),
-    (min-revolution: 192dppx) {
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
         @content;
     }
 }
